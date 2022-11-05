@@ -50,6 +50,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CSRF_TRUSTED_ORIGINS = ['https://*.gitpod.io']
+
 ROOT_URLCONF = 'songcrud.urls'
 
 TEMPLATES = [
